@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highpoint Buzz - Free Gifts on the Go!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.jpg" alt="Highpoint Buzz Logo" class="logo"> <!-- Update 'logo_path.jpg' with your actual logo path -->
+            <nav>
+                <a href="#skip" class="skip-content">Skip to content</a>
+                <a href="https://www.instagram.com/highpointbuzz/" target="_blank" class="social-link">Open Instagram in a new tab</a>
+                <div class="menu">
+                    <ul class="nav-links">
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <h1>Highpoint Buzz: Rolling Out Joy!</h1>
+    </header>
+    <main>
+        <section id="promo" class="blue-bg">
+            <h2>Get Your FREE Gift from Highpoint Buzz</h2>
+            <p>Exclusive at events: weddings, corporate gatherings, private parties</p>
+        </section>
+        <section id="video-promo" class="yellow-bg">
+            <h2>Watch Our Intro Video</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/ErfF1cxD-fU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="about-us" class="orange-bg">
+            <h3>About Highpoint Buzz Inc.</h3>
+            <p>Founded in 2021, we are a 100% legitimate enterprise based in NJ, offering the best in event experiences!</p>
+        </section>
+        <section id="how-it-works" class="purple-bg">
+            <h3>How It Works</h3>
+            <p>Purchase a branded item and receive a complimentary gift of your choice. We accept cash and Cash App!</p>
+        </section>
+        <section id="menu" class="blue-bg">
+            <h3>Menu</h3>
+            <ul>
+                <li>$60 - Lighter or Air Freshener with a choice of one free gift (See options below)</li>
+                <!-- List choices -->
+            </ul>
+        </section>
+        <section id="faq" class="red-bg">
+            <h3>FAQs</h3>
+            <p>Is this legal? Absolutely! We comply with NJ state laws to ensure everything is above board.</p>
+        </section>
+        <section id="contact" class="grey-bg">
+            <h3>Contact Us</h3>
+            <p>Email us at info@highpointbuzz.com or call 973-336-5066 We're here for your events!</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Highpoint Buzz Inc. 1328 US RT 23 Wantage NJ | 9733365066</p>
+    </footer>
+</body>
+</html>
+
+<style>
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f5f5f5;
+}
+
+header, nav, main, section, footer {
+    padding: 20px;
+}
+
+header {
+    background: #20232a;
+    color: white;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-grow: 1; 
+}
+
+nav a, .nav-links a {
+    color: #61dafb;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a:hover, .social-link:hover {
+    background-color: #61dafb;
+    color: #20232a;
+}
+
+/* Header and Promo Styles */
+h1 {
+    font-size: 2.5rem;
+}
+
+.section-header {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blue-bg {
+    background-color: #e6f7ff;
+}
+
+.yellow-bg {
+    background-color: #fff9c4;
+}
+
+.green-bg {
+    background-color: #e8f5e9;
+}
+
+.orange-bg {
+    background-color: #ffe0b2;
+}
+
+.purple-bg {
+    background-color: #f3e5f5;
+}
+
+.red-bg {
+    background-color: #ffebee;
+}
+
+.grey-bg {
+    background-color: #fafafa;
+}
+
+/* Video Styles */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #20232a;
+    color: #61dafb;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-height: 60px; /* Adjust the size as needed */
+    padding-right: 20px; /* Provides space between the logo and nav elements */
+}
+
+</style>
